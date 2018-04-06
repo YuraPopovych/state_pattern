@@ -17,7 +17,16 @@ $task -> resolved();
 $task -> verified();
 $task -> closed();
 $task -> in_progres();
-
+/*
+#OUTPUT:#
+Opened status
+In progres status
+Resolved status
+Verified status
+Closed status
+This action isn't allowed!
+Fatal error: Uncaught TypeError:
+ */
 
 
 ?>
